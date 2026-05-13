@@ -17,7 +17,7 @@
 
 <p align="center"> 
   <a href="https://master-portfolio-aakash.vercel.app" target="_blank">
-    <img src="images/masterPortfolioThemes.png"></img>
+   <img src="images/portfolio-preview.png">
   </a>
 </p>
 
