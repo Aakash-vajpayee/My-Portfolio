@@ -33,7 +33,7 @@ export default function Greeting(props) {
                 <Button
                   text="🏛️ Curriculum Vitae"
                   newTab={true}
-                  href="https://drive.google.com/file/d/14LX_MnHI7rjLBQthiy0xqdIPL2HhcTgs/view?usp=sharing"
+                  href="https://docs.google.com/document/d/1ZopcrbLdpNDzFXekO9HPgwqyWnTuYiC9qLCeWG5HH-g/edit?usp=sharing"
                   theme={theme}
                   className="portfolio-repo-btn"
                 />

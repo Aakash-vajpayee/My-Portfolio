@@ -23,7 +23,7 @@ const greeting = {
   subTitle:
     "Full Stack Developer with expertise in Java, Spring Boot, React.js and AI Integration. Building production-grade apps and multi-agent AI systems.",
   resumeLink:
-    "https://drive.google.com/file/d/14LX_MnHI7rjLBQthiy0xqdIPL2HhcTgs/view?usp=sharing",
+    "https://docs.google.com/document/d/1ZopcrbLdpNDzFXekO9HPgwqyWnTuYiC9qLCeWG5HH-g/edit?usp=sharing",
   portfolio_repository: "#",
   githubProfile: "https://github.com/Aakash-vajpayee",
 };
