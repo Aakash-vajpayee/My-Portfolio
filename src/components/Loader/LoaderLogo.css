@@ -1,0 +1,205 @@
+@font-face {
+  font-family: "Agustina";
+  src: url("../../fonts/Agustina-Signature.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.loaderWrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at center, #07111f 0%, #020617 100%);
+  overflow: hidden;
+  position: relative;
+}
+
+.bgGlow {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(59, 130, 246, 0.35) 0%,
+    transparent 70%
+  );
+  filter: blur(60px);
+  animation: glowMove 8s ease-in-out infinite;
+}
+
+.raw_logo {
+  display: block;
+  margin: auto;
+  overflow: visible;
+  z-index: 2;
+}
+
+/* =========================
+   OUTER HEXAGON
+========================= */
+
+.hexOuter {
+  stroke-dasharray: 870;
+  stroke-dashoffset: 870;
+
+  animation: drawOuter 1.8s cubic-bezier(0.65, 0, 0.35, 1) forwards,
+    hexPulse 4s ease-in-out infinite 2s;
+
+  filter: drop-shadow(0 0 8px #60a5fa) drop-shadow(0 0 18px #2563eb)
+    drop-shadow(0 0 32px rgba(59, 130, 246, 0.55));
+
+  transform-origin: center;
+  transform-box: fill-box;
+}
+/* =========================
+   INNER HEXAGON
+========================= */
+
+.hexInner {
+  stroke-dasharray: 720;
+  stroke-dashoffset: 720;
+
+  animation: drawInner 1.6s cubic-bezier(0.65, 0, 0.35, 1) forwards 0.25s,
+    hexPulse 4s ease-in-out infinite 2.2s;
+
+  opacity: 0.92;
+
+  filter: drop-shadow(0 0 6px #93c5fd) drop-shadow(0 0 14px #3b82f6)
+    drop-shadow(0 0 24px rgba(96, 165, 250, 0.5));
+
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+/* =========================
+   LETTERS
+========================= */
+
+.letterA {
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation: drawLetter 0.9s linear forwards 1.4s;
+}
+
+.letterV {
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation: drawLetter 0.9s linear forwards 1.9s;
+}
+/* =========================
+   SIGNATURE
+========================= */
+
+.signature1 {
+  stroke-dasharray: 1500;
+  stroke-dashoffset: 1500;
+
+  animation: drawSign 2.5s linear forwards 2.5s,
+    signatureGlow 4s ease-in-out infinite 5s;
+
+  filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.35));
+}
+
+/* =========================
+   KEYFRAMES
+========================= */
+
+@keyframes drawOuter {
+  0% {
+    stroke-dashoffset: 870;
+    opacity: 0;
+    transform: scale(0.85) rotate(-8deg);
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+@keyframes drawInner {
+  0% {
+    stroke-dashoffset: 720;
+    opacity: 0;
+    transform: scale(0.75) rotate(8deg);
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+@keyframes drawLetter {
+  from {
+    stroke-dashoffset: 500;
+    opacity: 0;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes drawSign {
+  from {
+    stroke-dashoffset: 1500;
+    opacity: 0;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes hexPulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.9;
+  }
+
+  50% {
+    transform: scale(1.03);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 0.9;
+  }
+}
+
+@keyframes signatureGlow {
+  0% {
+    filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.2));
+  }
+
+  50% {
+    filter: drop-shadow(0 0 18px rgba(255, 255, 255, 0.5));
+  }
+
+  100% {
+    filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.2));
+  }
+}
+
+@keyframes glowMove {
+  0% {
+    transform: translate(-40px, -20px) scale(1);
+  }
+
+  50% {
+    transform: translate(40px, 20px) scale(1.15);
+  }
+
+  100% {
+    transform: translate(-40px, -20px) scale(1);
+  }
+}
