@@ -48,7 +48,7 @@ Hey! I'm **Aakash Vajpayee** (_Akaizen_) — a passionate **Full Stack Developer
 ✔️ Contact Me\
 ✔️ Resume Viewer
 
-To view the live portfolio → **[Click here](my-portfolio-ten-psi-xztqvy6vfy.vercel.app)**
+To view the live portfolio → **[Click here](https://my-portfolio-ten-psi-xztqvy6vfy.vercel.app/)**
 
 ---
 
