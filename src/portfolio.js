@@ -453,109 +453,142 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Introduction to Generative AI",
-      subtitle: "- Google Cloud & Simplilearn",
-      logo_path: "google_logo.png",
-      certificate_link: "#",
-      alt_name: "Google Cloud",
-      color_code: "#4285F499",
+      title: "DeepLearning in AI",
+      subtitle: "- HP Life",
+      logo_path: "hp_logo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1hijYEsq_z1zDUKd6tC2hAnRUMXUvDRhT/view?usp=sharing",
+      alt_name: "HP",
+      color_code: "#FFBB0099",
     },
     {
       title: "Full Stack Development — Delta",
       subtitle: "- Apna College",
       logo_path: "apna_logo.png",
-      certificate_link: "#",
+      certificate_link:
+        "https://drive.google.com/file/d/1WC3NnvK6pIgtMLoltVRTCAVwNRSHRcw_/view?usp=sharing",
       alt_name: "Apna College",
-      color_code: "#FFFFFF",
+      color_code: "#fff",
     },
     {
-      title: "Backend Development",
-      subtitle: "- PW Skills",
-      logo_path: "pw_img.png",
-      certificate_link: "#",
-      alt_name: "PW Skills",
-      color_code: "#000000",
+      title: "Introduction to Generative AI",
+      subtitle: "- Google Cloud & Simplilearn",
+      logo_path: "google_logo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/13Cpufbj9nDE-gvWz7-Hpq3b5zj6WgMe5/view?usp=sharing",
+      alt_name: "Google Cloud",
+      color_code: "#4285F499",
+    },
+    {
+      title: "Automate with n8n",
+      subtitle: "- Let's Upgrade",
+      logo_path: "let_logo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1rixU1_ucxa1nnIRsIkslxO13HGz5UKpL/view?usp=sharing",
+      alt_name: "Lets Upgrate",
+      color_code: "#b15026a3",
     },
     {
       title: "Ethically Hack the Planet",
       subtitle: "- Udemy",
       logo_path: "udemy_logo.png",
       certificate_link: "#",
-      alt_name: "IBM",
-      color_code: "#FFF",
+      alt_name: "Udemy",
+      color_code: "#fff",
     },
-    // {
-    //   title: "Big Data",
-    //   subtitle: "- Kim Akers",
-    //   logo_path: "microsoft_logo.png",
-    //   certificate_link:
-    //     "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-    //   alt_name: "Microsoft",
-    //   color_code: "#D83B0199",
-    // },
-    // {
-    //   title: "Advanced Data Science",
-    //   subtitle: "- Romeo Kienzler",
-    //   logo_path: "ibm_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-    //   alt_name: "IBM",
-    //   color_code: "#1F70C199",
-    // },
-    // {
-    //   title: "Advanced ML on GCP",
-    //   subtitle: "- GCP Training",
-    //   logo_path: "google_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-    //   alt_name: "Google",
-    //   color_code: "#0C9D5899",
-    // },
-    // {
-    //   title: "DL on Tensorflow",
-    //   subtitle: "- Laurence Moroney",
-    //   logo_path: "deeplearning_ai_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-    //   alt_name: "deeplearning.ai",
-    //   color_code: "#00000099",
-    // },
-    // {
-    //   title: "Fullstack Development",
-    //   subtitle: "- Jogesh Muppala",
-    //   logo_path: "coursera_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-    //   alt_name: "Coursera",
-    //   color_code: "#2A73CC",
-    // },
-    // {
-    //   title: "Kuberenetes on GCP",
-    //   subtitle: "- Qwiklabs",
-    //   logo_path: "gcp_logo.png",
-    //   certificate_link:
-    //     "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-    //   alt_name: "GCP",
-    //   color_code: "#4285F499",
-    // },
-    // {
-    //   title: "Cryptography",
-    //   subtitle: "- Saurabh Mukhopadhyay",
-    //   logo_path: "nptel_logo.png",
-    //   certificate_link:
-    //     "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-    //   alt_name: "NPTEL",
-    //   color_code: "#FFBB0099",
-    // },
-    // {
-    //   title: "Cloud Architecture",
-    //   subtitle: "- Qwiklabs",
-    //   logo_path: "gcp_logo.png",
-    //   certificate_link:
-    //     "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-    //   alt_name: "GCP",
-    //   color_code: "#4285F499",
-    // },
+    {
+      title: "Social Media Marketing",
+      subtitle: "- HP Foundation",
+      logo_path: "hp_logo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1VofKTXhUpT2E8OgcIDptWY0Xw-fF90YC/view?usp=sharing",
+      alt_name: "HP",
+      color_code: "#f4656599",
+    },
+    {
+      title: "Data Science & Analytics",
+      subtitle: "- HP",
+      logo_path: "hp_logo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/16-0PsFphTdKecea3W-FPzIEmgSWKRbsp/view?usp=sharing",
+      alt_name: "HP",
+      color_code: "#16d8bb",
+    },
+
+    {
+      title: "Cybersecurity Foundations",
+      subtitle: "- Linkedin Learning",
+      logo_path: "linkedin_logo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1CSDECJ0oPOtnW34Vaj5wFCY3Nc3XRMH1/view?usp=sharing",
+      alt_name: "GCP",
+      color_code: "#fdfbfb",
+    },
+    {
+      title: "Generative AI",
+      subtitle: "- PW & Microsoft",
+      logo_path: "microsoft_logo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1jijZhq2wmbL4h30fYeKUJ9EQg5hH2oPe/view?usp=sharing",
+      alt_name: "Microsoft",
+      color_code: "#e1decdb0",
+    },
+    {
+      title: "RDBMS PostgreSQL Training",
+      subtitle: "- IIT Bombay",
+      logo_path: "iit_bom_logo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/135tkb4Z2_HiYxKZiCaXK1rmGvNKWrWya/view?usp=sharing",
+      alt_name: "IIT",
+      color_code: "#f4429899",
+    },
+
+    {
+      title: "Cybersecurity Terminology",
+      subtitle: "- Linkedin Learning",
+      logo_path: "project_logo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/120AyWuxrRmRn9YfxIQ-p7mLy6lXWysiF/view?usp=sharing",
+      alt_name: "NPTEL",
+      color_code: "#fff",
+    },
+    {
+      title: "Cybersecurity Awareness",
+      subtitle: "- HP",
+      logo_path: "hp_logo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1i9BJlWr7JHNhKk5dXfyFyDgZyel943J1/view?usp=sharing",
+      alt_name: "HP",
+      color_code: "#7348a1",
+    },
+
+    {
+      title: "Namaste JavaScript",
+      subtitle: "- Namaste Dev",
+      logo_path: "namaste_logo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1E6mdI6nOnQ5WudLjRtNS1M7mVSzNtfRq/view?usp=sharing",
+      alt_name: "PW",
+      color_code: "#b94949",
+    },
+    {
+      title: "Full Stack Development",
+      subtitle: "- PW",
+      logo_path: "physics_logo.jpg",
+      certificate_link:
+        "https://drive.google.com/file/d/1xXlJ8AEfsUobQsJX7EivGPFiGuKftarj/view?usp=sharing",
+      alt_name: "PW",
+      color_code: "#fff",
+    },
+    {
+      title: "Backend Development",
+      subtitle: "- PW",
+      logo_path: "pw_img.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1MpWO2ku17_MK2OCVDV1AOFSk8EseEKKd/view?usp=sharing",
+      alt_name: "PW",
+      color_code: "#000",
+    },
   ],
 };
 
